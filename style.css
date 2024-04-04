@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+  font-family: Arial;  
+  display: flex;
+  align-items: center;
+
+}
+nav h1{
+    color: black;
+    margin: 0;
+    font-size: 35px;
+    font-family: Arial;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+     
+
+}
+nav ul{
+    display:flex;
+    gap: 40px;
+    list-style: none;
+    margin-left: 250px;
+}
+
+
+.new{
+    color: darkkhaki;
+}
+h3{
+    font-size: 15px;
+}
+
+hr{
+    height: 15px;
+    border-width: 1px;
+}
+.top{
+   display: flex; 
+   gap: 7px; 
+   align-items: center;
+   margin-left: 300px;
+}
+.now{
+    background-image: url(IMG-20240315-WA0028.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+}
+.hr1{
+    width: 105px;
+    /* margin: 0%; */
+    height: 0.5px;
+    margin-top: 15px;
+    background-color: white;
+    color: white;
+    border: none;
+}
+.now p{
+    color: white;
+    justify-content: center;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial;
+}
+.now button{
+    padding: 15px 15px 15px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.now button:hover{
+    opacity: 0.8;
+    background-color: black ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.now button:active{
+    opacity: 0.5;
+    background-color: black ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.second{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.second-text{
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    font-family: Cambria;
+    font-weight: bold;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.rowA{
+   border: 2px solid gainsboro;
+   border-radius: 5px;
+   padding: 10px;
+   font-style: normal;
+   background-color: rgb(237, 237, 237);
+   cursor: pointer;
+   transition: 0.15s;
+}
+.rowA:hover{
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    border-radius: 5px;
+}
+.rowB{
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    font-style: normal;
+    margin-left: 20px;
+    background-color: rgb(237, 237, 237);
+    cursor: pointer;
+    transition: 0.15s;
+ }
+ .rowB:hover{
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    border-radius: 5px;
+}
+ .row2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: cursive;
+ }
+.second button{
+    padding: 15px 15px 15px 15px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: black;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+ }
+ .second button:hover{
+    opacity: 0.8;
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.15s;
+ }
+ .log{
+    text-align: center;
+ }
+ .log ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-top: 20px ;
+ }
+
+.invisible{
+    height: 450px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.kill button{
+    border-radius: 100px;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.arrival{
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+}
+.arrival h1{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2000;
+    margin: 30px;
+}
+.arrival div{
+    justify-content: center;
+    gap: 20px;
+    /* background-color: black; */
+}
+.arrival img{
+    background-color: yellow;
+}
+.arrival a{
+    padding-top:20px;
+    /* font-size: 15px; */
+}
+.time{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+}
+.time p{
+    color: white;
+    /* padding-top: 50px; */
+}
+.hurry{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10PX;
+    gap: 5px;
+}
+.hurry div button{
+padding: 15px;
+background-color: gray;
+border: none;
+border-radius: 5px;
+color: white;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.hurry div p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    background-image: url(huawei-watch-ultimate-voyage-blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+}
+.submit p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    color: white;
+    padding-top: 40px;
+}
+.submit div input{
+    /* display: flex; */
+    background-color: white;
+    gap: 20px;
+    height: 30px;
+    width: 390px;
+    justify-content: center;
+    margin-left: 60px;
+    border: none;
+}
+.submit button{
+    background-color: black;
+    color: white;   
+    width: 400px;
+    height: 30px;
+    margin-left: 60px;
+    border: none;
+    margin-top: 10px;
+}
+.below button {
+    border: 1.5px solid black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+.below ul{
+    list-style: none;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.below ul li{
+    gap: 20px;
+    margin: 10px;
+    margin-left: 0;
+}
+.below h4{
+    margin: 20px;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: px;
+}
+.below p{
+    margin: 10px;
+    margin-left: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
